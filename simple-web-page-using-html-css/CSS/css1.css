@@ -1,0 +1,170 @@
+body{
+    margin: 50px;
+    padding: 350px;
+    background: url('yoga-2587066_1920.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+/* Logo part */
+.left{
+    /* border: 3px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 29px;
+    left: 20px;
+    border-radius: 116px;
+    height: 10%;
+}
+.left img{
+    width: 132px;
+    position: relative;
+    /* top: 30px; */
+    top: -18px;
+    /* filter: invert(100%); */
+}
+.write{
+    font-size: 40px;
+    color: white;
+    float: right;
+    width: 131px;
+    text-align: left;
+    line-height: 34px;
+}
+
+
+/* Navbar */
+.mid{
+    /* border: 3px solid red; */
+    display: block;
+    margin: 20px auto;
+    position: absolute;
+    width: 38%;
+    top: 27px;
+    left: 26%;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 30px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 25px;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    color: rgb(4, 70, 13);
+    text-decoration: underline;
+}
+/* Right */
+.right{
+    /* border: 3px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 44px;
+    width: 24.5%;
+    float: right;
+}
+.btn{
+    float: left;
+    font-size: 21px;
+    margin: 0px 16px;
+    padding: 4px 17px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(89, 177, 236);
+}
+.timing{
+    float: right;
+    font-size: 20px;
+    font-family: 'Rowdies', cursive;
+    position: relative;
+    top: 5px;
+}
+.dot{
+    display: inline-block;
+    font-size: 35px;
+    position: relative;
+    left: -5px;
+    bottom: 12px;
+}
+p::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -1px;
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+}
+
+h1{
+    font-size: 125px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 66px;
+    line-height: 120px;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    left: 16%;
+    width: 31%;
+
+}
+
+p{
+    position: absolute;
+    left: 16%;
+    /* top: 0%; */
+    /* top: 7%; */
+    /* bottom: 11%; */
+    width: 24%;
+}
+
+.container{
+    position: absolute;
+    right: 4%;
+    margin: -163px -16px;
+    padding: 55px;
+    width: 15%;
+    border: 3px solid rgb(7, 7, 7);
+    border-radius: 132px;
+}
+h2{
+    font-size: 38px;
+    text-transform: capitalize;
+    line-height: 28px;
+}
+.form-group input{
+    text-align: center;
+    margin: 22px 39px;
+    padding: 9px;
+    border: 3px solid white;
+    width: 180px;
+    display: block;
+    border-radius: 29px;
+}
+.form-group button{
+    padding: 7px;
+    margin: 13px 59px;
+    width: 57%;
+    border: 3px solid green;
+    border-radius: 34px;
+    position: relative;
+    left: -6px;
+}
+.btn2{
+    padding: 3px;
+    margin: 3px 3px;
+    width: 2px;
+    border: 3px solid green;
+    border-radius: 3px;
+}
