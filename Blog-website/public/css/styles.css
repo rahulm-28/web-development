@@ -1,0 +1,11 @@
+.navbar .container .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+.collapse .navbar-nav .nav-item .nav-link{
+    font-weight: bold;
+    font-size: 24px; 
+}
+:footer {
+    padding: 5px 0 5px;
+}
